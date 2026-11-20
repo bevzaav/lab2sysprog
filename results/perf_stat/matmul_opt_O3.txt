@@ -1,0 +1,22 @@
+
+ Performance counter stats for './bin/matmul_opt_O3 3':
+
+            302.40 msec task-clock                       #    0.998 CPUs utilized          
+                13      context-switches                 #   42.990 /sec                   
+                 0      cpu-migrations                   #    0.000 /sec                   
+               570      page-faults                      #    1.885 K/sec                  
+   <not supported>      cycles                                                      
+   <not supported>      instructions                                                
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+   <not supported>      L1-dcache-loads                                             
+   <not supported>      L1-dcache-load-misses                                       
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+
+       0.303091292 seconds time elapsed
+
+       0.301711000 seconds user
+       0.000999000 seconds sys
+
+

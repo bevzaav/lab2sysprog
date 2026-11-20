@@ -1,0 +1,29 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 22K of event 'cpu-clock:pppH'
+# Event count (approx.): 22360360338
+#
+# Overhead  Command          Shared Object      Symbol             
+# ........  ...............  .................  ...................
+#
+    99.94%  matmul_naive_O3  matmul_naive_O3    [.] matmul
+            |
+            ---matmul
+               main
+               0xffff99917744
+               __libc_start_main
+               _start
+
+     0.03%  matmul_naive_O3  [kernel.kallsyms]  [k] __pi_clear_page
+     0.02%  matmul_naive_O3  [kernel.kallsyms]  [k] schedule
+     0.01%  matmul_naive_O3  [kernel.kallsyms]  [k] handle_softirqs
+     0.00%  matmul_naive_O3  [kernel.kallsyms]  [k] __schedule
+     0.00%  matmul_naive_O3  matmul_naive_O3    [.] checksum
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

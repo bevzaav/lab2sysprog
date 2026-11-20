@@ -1,0 +1,22 @@
+
+ Performance counter stats for './bin/matmul_naive_O3 3':
+
+          23715.65 msec task-clock                       #    0.999 CPUs utilized          
+               263      context-switches                 #   11.090 /sec                   
+                 5      cpu-migrations                   #    0.211 /sec                   
+               570      page-faults                      #   24.035 /sec                   
+   <not supported>      cycles                                                      
+   <not supported>      instructions                                                
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+   <not supported>      L1-dcache-loads                                             
+   <not supported>      L1-dcache-load-misses                                       
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+
+      23.740129302 seconds time elapsed
+
+      23.692275000 seconds user
+       0.021030000 seconds sys
+
+

@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-I., -isysroot, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk]
